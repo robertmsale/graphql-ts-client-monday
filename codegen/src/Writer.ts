@@ -380,7 +380,10 @@ const SCALAR_MAP: {[key: string]: "string" | "number" | "boolean"} = {
     "LocalDate": "string",
     "LocalDateTime": "string",
     "ID": "string",
-    "UUID": "string"
+    "UUID": "string",
+    "JSON": "string",
+    "File": "string",
+    "ISO8601DateTime": "string",
 };
 
 const EMPTY_MAP = {};
